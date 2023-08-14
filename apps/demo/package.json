@@ -3,5 +3,13 @@
   "scripts": {
     "build": "echo 'hello'"
   }
-  "nx": {}
+  "nx": {
+    "targets": {
+      "build": {
+        "outputs": [
+          "{workspaceRoot}/dist/apps/demo"
+        ]
+      }
+    }
+  }
 }
